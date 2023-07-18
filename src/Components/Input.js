@@ -7,8 +7,8 @@ function Input() {
       setInput(event.target.value)
   }
   return (
-    <div >
-        <input type="text" onChange={inputhandler} style={{backgroundColor:'red'}}/>
+    <div>
+        <input type="text" onChange={inputhandler}  />
         {Input}
     </div>
    
