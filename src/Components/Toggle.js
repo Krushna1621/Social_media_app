@@ -7,12 +7,9 @@ function Toggle() {
     <div>
       <button onClick={()=>{
         setColor(!textColor)
-       
+        setvisible(!visible)
       }}>Show</button>
       <h1 style={{color:textColor?'black':'red'}}>My Name is Krushnkanat Shinde</h1>
-    <button onClick={()=>{
-       setvisible(!visible)
-    }}>Show</button> 
     {visible?'ON':'OFF'}
     </div>
   )
