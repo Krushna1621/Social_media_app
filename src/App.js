@@ -1,5 +1,6 @@
 
 import './App.css';
+import ShowText from './Components/ShowText';
 // import Counter from './Components/Counter';
 // import Input from './Components/Input';
 import Toggle from './Components/Toggle';
@@ -12,6 +13,7 @@ function App() {
     </div> */}
      {/* <User name="Krusha" position="software development" payment="15000"/> */}
     <Toggle></Toggle>
+    <ShowText></ShowText>
     </div>
   );
 }
