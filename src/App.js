@@ -1,11 +1,10 @@
-
-import '../src/';
-import AddTask from './Components/AddTask';
+import './App.css';
+import DataRecive from './Components/DataRecive';
 
 function App() {
   return (
     <div className="App">
-    <AddTask></AddTask>
+      <DataRecive></DataRecive>
     </div>
   );
 }
