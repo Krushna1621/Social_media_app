@@ -1,10 +1,11 @@
 import './App.css';
-import DataRecive from './Components/DataRecive';
+import AddDataApi from './Components/AddDataApi';
+
 
 function App() {
   return (
     <div className="App">
-      <DataRecive></DataRecive>
+      <AddDataApi></AddDataApi>
     </div>
   );
 }
