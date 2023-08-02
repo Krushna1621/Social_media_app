@@ -1,11 +1,20 @@
 import './App.css';
-import AddDataApi from './Components/AddDataApi';
-
+import Name from './Components/NewLearn/Name';
 
 function App() {
   return (
     <div className="App">
-      <AddDataApi></AddDataApi>
+    
+    <Name></Name>
+     {/* <Router>
+         <div>
+         <NavBar></NavBar>
+         </div>
+         <Routes>
+             <Route path="/" element={<AddDataApi/>}></Route>
+             <Route path="/menu" element={<Input/>}></Route>
+         </Routes>
+     </Router> */}
     </div>
   );
 }

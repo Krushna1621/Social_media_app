@@ -9,6 +9,7 @@ function Input() {
   return (
     <div>
         <input type="text" onChange={inputhandler}  />
+        <button>Click Here</button>
         {Input}
     </div>
    
